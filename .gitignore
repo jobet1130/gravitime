@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Data files
+data/raw/
+data/processed/
+data/external/
+*.csv
+*.tsv
+*.json
+
+# Model files
+models/
+*.joblib
+*.pkl
+*.h5
+*.sav
+
+# Reports and generated figures
+reports/figures/
+*.pdf
+*.png
+*.jpg
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# Output from Kaggle
+/kaggle/working/*
+/kaggle/temp/*
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Cache
+__pycache__/
+*.pyc
+.cache/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Unit test cache
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+MANIFEST
